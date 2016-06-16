@@ -1,19 +1,24 @@
+div {
+  position: absolute; 
+}
+
 .active, .passive {
-  position: absolute;
+  position: absolute;;
   top:0px;
-  left:0px; 
+  display: block;
+  width: 100vw; 
 }
 
 .passive {
   opacity: 0;
-  -webkit-transition: opacity 2s;
-  transition: opacity 2s;
+  -webkit-transition: opacity 5s;
+  transition: opacity 5s;
 }
 
 .active {
   opacity: 1;
-  -webkit-transition: opacity 2s;
-  transition: opacity 2s;
+  -webkit-transition: opacity 5s;
+  transition: opacity 5s;
 }
 
 body {
