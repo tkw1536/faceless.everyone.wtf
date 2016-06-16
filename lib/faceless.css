@@ -1,5 +1,7 @@
 .active, .passive {
-  position: absolute; 
+  position: absolute;
+  top:0px;
+  left:0px; 
 }
 
 .passive {
@@ -19,23 +21,23 @@ body {
    font-size: 14px;
    line-height: 1.42857143;
    color: #333;
-   text-align: center; 
+   text-align: center;
 }
 
 h1 {
   font-weight: 500;
-  font-size: 40pt; 
+  font-size: 40pt;
 }
 
 h2 {
   font-weight: 500;
   font-size: 30pt;
   font-style: italic;
-  color: #DDDDDD; 
+  color: #DDDDDD;
 }
 
 span {
   font-weight: 500;
-  font-size: 30pt; 
-  color: gray; 
+  font-size: 30pt;
+  color: gray;
 }
