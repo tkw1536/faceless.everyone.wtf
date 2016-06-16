@@ -1,0 +1,41 @@
+.active, .passive {
+  position: absolute; 
+}
+
+.passive {
+  opacity: 0;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.active {
+  opacity: 1;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+body {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-size: 14px;
+   line-height: 1.42857143;
+   color: #333;
+   text-align: center; 
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 40pt; 
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 30pt;
+  font-style: italic;
+  color: #DDDDDD; 
+}
+
+span {
+  font-weight: 500;
+  font-size: 30pt; 
+  color: gray; 
+}
