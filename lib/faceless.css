@@ -41,7 +41,7 @@ h2 {
   color: #DDDDDD;
 }
 
-span {
+span#person1, span#person2 {
   font-weight: 500;
   font-size: 30pt;
   color: gray;
